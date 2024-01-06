@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LoginWithAnimation</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Kondisi kesehatan mental sang ibu juga penting</string>
+    <string name="title_welcome_page">Selamat datang di Nurtur!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="old_password">Password Lama</string>
+    <string name="new_password">Password Baru</string>
+    <string name="confirmation_new_password">Konfirmasi Password Baru</string>
+    <string name="message_login_page">Masukkan email dan password anda</string>
+    <string name="title_login_page">Login</string>
+    <string name="name">Nama</string>
+    <string name="phone">Nomor Telepon</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_konsultasi">Konsultasi</string>
+    <string name="menu_riwayat">Riwayat</string>
+    <string name="menu_profil">Profile</string>
+    <string name="daily_result">kondisi suasan hati dan saran</string>
+    <string name="button_daily_result">Kembali ke Halaman Utama</string>
+    <string name="button_reservation">Selanjutnya</string>
+    <string name="empty_image_warning">Gambar tidak boleh kosong</string>
+</resources>

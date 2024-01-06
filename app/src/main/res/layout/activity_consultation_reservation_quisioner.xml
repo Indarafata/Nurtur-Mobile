@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ui.consultation.ConsultationReservationQuisionerActivity">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".ui.view.consultation.ConsultationReservationQuisionerActivity">
+
+    <!-- Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masalah"
+        android:textSize="16sp"
+        android:layout_marginVertical="16dp"
+        android:textStyle="bold"
+        android:textColor="#944FCC"/>
+
+    <!-- Input Text -->
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Yuk coba jelaskan masalah apa yang kamu hadapi disini"
+        android:inputType="textMultiLine"
+        android:gravity="top"></EditText>
+
+    <!-- Spacer -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <!-- Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harapan:"
+        android:layout_marginVertical="16dp"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#944FCC"/>
+
+    <!-- Input Text -->
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:hint="Harapan kamu setelah mengikuti sesi ini"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dalam 7 hari terakhir, saya.."
+        android:layout_marginVertical="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#944FCC"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_quiz_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_gravity="clip_horizontal"
+        tools:listitem="@layout/item_quisioner" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/button_reservation"
+        android:backgroundTint="@color/purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
+</LinearLayout>
